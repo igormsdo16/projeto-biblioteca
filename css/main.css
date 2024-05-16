@@ -1,0 +1,46 @@
+:root{
+    --primaria: #f67f31;
+    --secundaria: #483d8d;
+    --texto: #2f2f2f;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    color: var(--texto);
+}
+
+#cabecalho{
+    height: 80px;
+    padding: 10px;
+}
+
+#logotipo img{
+    max-width: 200px;
+}
+
+
+#menu ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+#menu ul li a{
+    color: var(--texto);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#botoesCabecalho{
+    
+}
